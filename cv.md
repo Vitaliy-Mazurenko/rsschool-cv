@@ -1,4 +1,4 @@
-1. Vitaliy Mazurenko
+1. **Vitaliy Mazurenko**
 
 2. Contact Info:
 * Tel: +(38) 098 214 94 03
