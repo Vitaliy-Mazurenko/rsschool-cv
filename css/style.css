@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/Montserrat-Bold.ttf");
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.ttf");
+}
+* {
+  font-size: 17px;
+  font-family: "Lato", sans-serif;
+}
+body {
+  background: #c7c7c7;
+  margin: 12px;
+}
+
+a {
+  color: #1ba1c7;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.wrapper {
+  margin: 25px auto;
+  width: 890px;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  background: #fff;
+}
+
+.ellipse {
+  border-width: 4px;
+  border-color: rgb(0, 103, 222);
+  border-style: solid;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  width: 220px;
+  height: 229px;
+  margin: 5px auto;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(0, 103, 222);
+  font-size: 34px;
+  margin-top: 45px;
+  margin-bottom: 40px;
+}
+
+.main {
+  padding-bottom: 10px;
+  padding-left: 90px;
+}
+
+h2 {
+  color: rgb(0, 103, 222);
+  font-size: 18px;
+  font-family: "Montserrat-Bold", sans-serif;
+}
