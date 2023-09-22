@@ -1,2 +1,3 @@
-# rsschool-cv
-<https://Vitaliy-Mazurenko.github.io/rsschool-cv/cv>
+# cv
+
+<https://Vitaliy-Mazurenko.github.io/rsschool-cv/>
