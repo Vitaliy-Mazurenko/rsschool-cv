@@ -16,7 +16,7 @@ body {
 }
 
 a {
-  color: #1ba1c7;
+  color: rgb(0, 103, 222);
 }
 a:hover {
   text-decoration: underline;
@@ -30,16 +30,16 @@ a:hover {
   background: #fff;
 }
 
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
 .ellipse {
-  border-width: 4px;
-  border-color: rgb(0, 103, 222);
-  border-style: solid;
-  border-radius: 50%;
-  position: relative;
   top: 20px;
-  width: 220px;
-  height: 229px;
-  margin: 5px auto;
+  width: 361px;
+  height: 362px;
+  margin: 15px 20px 25px;
 }
 
 h1 {
@@ -47,7 +47,17 @@ h1 {
   color: rgb(0, 103, 222);
   font-size: 34px;
   margin-top: 45px;
-  margin-bottom: 40px;
+}
+
+.geo::before {
+  content: url(../img/geo.jpg);
+  width: 17px;
+  height: 25px;
+  margin-right: 7px;
+}
+
+.experience {
+  line-height: 29px;
 }
 
 .main {
@@ -57,6 +67,6 @@ h1 {
 
 h2 {
   color: rgb(0, 103, 222);
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Montserrat-Bold", sans-serif;
 }
